@@ -7,11 +7,26 @@ import data.exceptions.VectorOperationException;
 // A class representation of a matrix, with built-in addition, subtraction & elementary row operations
 public class Matrix {
 
+
+
     protected int numRows;
 
     // A matrix is composed of columns of vectors
     // columns[0] is the first column of the matrix
     protected Vector[] columns;
+
+    public int getNumRows() {
+        return numRows;
+    }
+
+    public Vector[] getColumns() {
+        return columns;
+    }
+
+    public void setColumns(Vector[] columns) {
+        this.columns = columns;
+    }
+
 
     public Matrix(Vector[] vectors) throws MatrixOperationException {
         int temp = vectors[0].numRows;
@@ -52,7 +67,7 @@ public class Matrix {
     // Matrix elementary row operation - swap the specified rows in the matrix
     // Row number is assumed to not use 0-based indexing
     public void interChange(int row1, int row2) throws MatrixOperationException {
-        if (row1 < 1 || row2 < 1 || row1 > numRows || row2 > numRows) {
+        if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 > numRows - 1) {
             throw new MatrixOperationException();
         }
 
@@ -66,7 +81,7 @@ public class Matrix {
     // Matrix elementary row operation - add a multiple of one row to another
     // In this case, value in column, row1 = value in column, row2 * scale
     public void replacement(int row1, int row2, double scale) throws MatrixOperationException {
-        if (row1 < 1 || row2 < 1 || row1 > numRows || row2 > numRows) {
+        if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 > numRows - 1) {
             throw new MatrixOperationException();
         }
 
@@ -83,7 +98,7 @@ public class Matrix {
 
     // For error message purposes - transcribes the matrix into a readable string
     public String generateMessage() {
-        String retval = "{ ";
+        String retval = "{ \n";
         for (int i = 0; i < numRows; i++) {
             for (Vector vect : columns) {
                 retval = retval + Integer.toString((int) vect.elements[i]) + ", ";

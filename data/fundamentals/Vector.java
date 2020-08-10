@@ -11,6 +11,20 @@ public class Vector {
     // Has numRows values; vector[0] is the value in the first row
     protected double[] elements;
 
+
+    public int getNumRows() {
+        return numRows;
+    }
+
+    public double[] getElements() {
+        return elements;
+    }
+
+    public void setElements(double[] elements) {
+        this.elements = elements;
+    }
+
+
     public Vector(double[] values) {
         this.elements = values;
         this.numRows = values.length;
