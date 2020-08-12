@@ -20,11 +20,6 @@ public class Vector {
         return elements;
     }
 
-    public void setElements(double[] elements) {
-        this.elements = elements;
-    }
-
-
     public Vector(double[] values) {
         this.elements = values;
         this.numRows = values.length;

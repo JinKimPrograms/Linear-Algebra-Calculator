@@ -1,13 +1,10 @@
 package data.fundamentals;
-
 import data.exceptions.MatrixOperationException;
 import data.exceptions.VectorOperationException;
 
 
 // A class representation of a matrix, with built-in addition, subtraction & elementary row operations
 public class Matrix {
-
-
 
     protected int numRows;
 
@@ -23,14 +20,8 @@ public class Matrix {
         return columns;
     }
 
-    public void setColumns(Vector[] columns) {
-        this.columns = columns;
-    }
-
-
     public Matrix(Vector[] vectors) throws MatrixOperationException {
         int temp = vectors[0].numRows;
-
         // check through all vectors to make sure they are the same size
         for (Vector vect : vectors) {
             if (vect.numRows != temp) {
@@ -96,7 +87,7 @@ public class Matrix {
     }
 
 
-    // For error message purposes - transcribes the matrix into a readable string
+    // Transcribes the matrix into a readable string
     public String generateMessage() {
         String retval = "{ \n";
         for (int i = 0; i < numRows; i++) {
