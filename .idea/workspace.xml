@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Vector" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Vector" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fnWI8B8zPobyyPrOircXmn7wyR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestVector">
+    <configuration name="All in Linear-Algebra-Calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGaussianElimination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGaussianElimination" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestVector" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVector.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestVector" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
+      <item itemvalue="JUnit.All in testing" />
+      <item itemvalue="JUnit.TestGaussianElimination" />
+      <item itemvalue="JUnit.TestVector" />
+      <item itemvalue="JUnit.TestVector.testConstructor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestVector" />
+        <item itemvalue="JUnit.TestGaussianElimination" />
+        <item itemvalue="JUnit.All in testing" />
+        <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
+        <item itemvalue="JUnit.TestVector.testConstructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="" />
+      <created>1596854256374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596854256374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597014372520">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014372520" />
+    <state x="2558" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1597017993580">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1596854895871" />
+    <state x="2558" y="195" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597017993580" />
+    <state x="2450" y="206" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597014364951">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2450" y="206" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014364951" />
+    <state x="2449" y="220" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597014353052">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2449" y="220" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014353052" />
+    <state x="2441" y="132" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597441299309">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2441" y="132" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597441299309" />
+    <state x="2424" y="207" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1597008650052">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2424" y="207" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597008650052" />
+    <state x="2619" y="160" key="FileChooserDialogImpl" timestamp="1597209962121">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597044448904">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597044448904">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597044448904">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597044448904">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1597030332420">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332420" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1597030332419">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332419" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1597030332419">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332419" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1597030332420">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332420" />
+    <state x="2221" y="9" key="SettingsEditor" timestamp="1597014077921">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2221" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014077921" />
+    <state x="2424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597008368144">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597008368144" />
+    <state x="121" y="0" width="1256" height="847" key="dock-window-1" timestamp="1597208165382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="121" y="0" width="1256" height="847" key="dock-window-1/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597208165382" />
+    <state x="2102" y="50" key="new project wizard" timestamp="1597209983740">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2102" y="50" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209983740" />
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597019690979">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597019690979" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_testing.ic" NAME="All in testing Coverage Results" MODIFIED="1597009801873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$TestVector.ic" NAME="TestVector Coverage Results" MODIFIED="1597039524064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_Linear_Algebra_Calculator.ic" NAME="All in Linear-Algebra-Calculator Coverage Results" MODIFIED="1597009797730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
