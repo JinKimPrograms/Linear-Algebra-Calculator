@@ -33,7 +33,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="" />
+    <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +176,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2200" y="9" key="#Project_Structure" timestamp="1597441866410">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2200" y="9" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597441866410" />
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597014372520">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -200,22 +209,22 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597044448904">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597442494034">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597044448904">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597442494034">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597044448904">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597442494034">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597044448904">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597442494034">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597044448904" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1597030332420">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -232,6 +241,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332420" />
+    <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1597442344514">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2250" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442344514" />
     <state x="2221" y="9" key="SettingsEditor" timestamp="1597014077921">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -248,10 +261,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2102" y="50" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209983740" />
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597019690979">
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597441515050">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597019690979" />
+    <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597441515050" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_testing.ic" NAME="All in testing Coverage Results" MODIFIED="1597009801873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
