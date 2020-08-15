@@ -33,7 +33,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="" />
+    <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/MatrixOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/VectorOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestGaussianElimination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Linear-Algebra-Calculator-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,9 +93,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.TestVector">
+  <component name="RunManager" selected="JUnit.All in Linear-Algebra-Calculator">
     <configuration name="All in Linear-Algebra-Calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -139,10 +158,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
         <item itemvalue="JUnit.TestVector" />
         <item itemvalue="JUnit.TestGaussianElimination" />
         <item itemvalue="JUnit.All in testing" />
-        <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
         <item itemvalue="JUnit.TestVector.testConstructor" />
       </list>
     </recent_temporary>
@@ -204,22 +223,22 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597442494034">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597462836194">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597442494034">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836194" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597462836193">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597442494034">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597462836193">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597442494034">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597462836193">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442494034" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1597030332420">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -240,10 +259,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597442344514" />
-    <state x="2221" y="9" key="SettingsEditor" timestamp="1597014077921">
+    <state x="2221" y="9" key="SettingsEditor" timestamp="1597445659685">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2221" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014077921" />
+    <state x="2221" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597445659685" />
     <state x="2424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597008368144">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -256,6 +275,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2102" y="50" key="new project wizard/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209983740" />
+    <state x="2376" y="195" key="run.anything.popup" timestamp="1597445019707">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2376" y="195" key="run.anything.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597445019707" />
     <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597441515050">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
