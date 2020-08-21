@@ -1,4 +1,4 @@
-/*
+
 import exceptions.MatrixOperationException;
 import fundamentals.Matrix;
 import fundamentals.Vector;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TestMatrix {
+public class MatrixTest {
 
     Vector vector1;
     Vector vector2;
@@ -52,4 +52,4 @@ public class TestMatrix {
     }
 
 }
-*/
+

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 
-public class TestVector {
+public class VectorTest {
 
     Vector vector1;
     Vector vector2;

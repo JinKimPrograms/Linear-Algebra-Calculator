@@ -34,20 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/MatrixOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/VectorOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestGaussianElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGaussianElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Linear-Algebra-Calculator-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -112,17 +102,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGaussianElimination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
+    <configuration name="GaussianEliminationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGaussianElimination" />
+      <option name="MAIN_CLASS_NAME" value="GaussianEliminationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
+    <configuration name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
@@ -131,7 +121,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVector" />
+      <option name="MAIN_CLASS_NAME" value="VectorTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -139,10 +129,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVector.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
+    <configuration name="VectorTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVector" />
+      <option name="MAIN_CLASS_NAME" value="VectorTest" />
       <option name="METHOD_NAME" value="testConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -152,17 +142,17 @@
     <list>
       <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
       <item itemvalue="JUnit.All in testing" />
-      <item itemvalue="JUnit.TestGaussianElimination" />
-      <item itemvalue="JUnit.TestVector" />
-      <item itemvalue="JUnit.TestVector.testConstructor" />
+      <item itemvalue="JUnit.GaussianEliminationTest" />
+      <item itemvalue="JUnit.VectorTest" />
+      <item itemvalue="JUnit.VectorTest.testConstructor" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
-        <item itemvalue="JUnit.TestVector" />
-        <item itemvalue="JUnit.TestGaussianElimination" />
+        <item itemvalue="JUnit.VectorTest" />
+        <item itemvalue="JUnit.GaussianEliminationTest" />
         <item itemvalue="JUnit.All in testing" />
-        <item itemvalue="JUnit.TestVector.testConstructor" />
+        <item itemvalue="JUnit.VectorTest.testConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -223,22 +213,22 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1597462836194">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598022502684">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836194" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1597462836193">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598022502684" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598022502684">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1597462836193">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598022502684" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598022502684">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1597462836193">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598022502684" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598022502684">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597462836193" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598022502684" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1597030332420">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -289,6 +279,6 @@
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$TestVector.ic" NAME="TestVector Coverage Results" MODIFIED="1597039524064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_Linear_Algebra_Calculator.ic" NAME="All in Linear-Algebra-Calculator Coverage Results" MODIFIED="1597009797730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_Linear_Algebra_Calculator.ic" NAME="All in Linear-Algebra-Calculator Coverage Results" MODIFIED="1598022641415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

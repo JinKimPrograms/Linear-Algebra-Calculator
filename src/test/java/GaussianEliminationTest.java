@@ -4,7 +4,7 @@ import fundamentals.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class TestGaussianElimination {
+public class GaussianEliminationTest {
 
     Vector vector1;
     Vector vector2;
