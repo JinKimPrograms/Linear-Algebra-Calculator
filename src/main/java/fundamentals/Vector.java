@@ -1,6 +1,7 @@
 package fundamentals;
 
 import exceptions.VectorOperationException;
+import java.util.Arrays;
 
 // A class representation of a Vector with built-in operations
 public class Vector {
@@ -24,6 +25,16 @@ public class Vector {
         this.elements = values;
         this.numRows = values.length;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vector vector = (Vector) o;
+        return numRows == vector.numRows &&
+                Arrays.equals(elements, vector.elements);
+    }
+
 
     // Subtracts the vector in the parameter from this vector
     // Both vectors should have the same number of rows

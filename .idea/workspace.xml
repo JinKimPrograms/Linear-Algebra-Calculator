@@ -34,9 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Linear-Algebra-Calculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,19 +90,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GaussianEliminationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GaussianEliminationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.testAddMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
+      <option name="METHOD_NAME" value="testAddMatrix" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,30 +136,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Linear-Algebra-Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorTest" />
-      <option name="METHOD_NAME" value="testConstructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
-      <item itemvalue="JUnit.All in testing" />
       <item itemvalue="JUnit.GaussianEliminationTest" />
       <item itemvalue="JUnit.VectorTest" />
-      <item itemvalue="JUnit.VectorTest.testConstructor" />
+      <item itemvalue="JUnit.MatrixTest" />
+      <item itemvalue="JUnit.MatrixTest.testAddMatrix" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
+        <item itemvalue="JUnit.MatrixTest" />
+        <item itemvalue="JUnit.MatrixTest.testAddMatrix" />
         <item itemvalue="JUnit.VectorTest" />
         <item itemvalue="JUnit.GaussianEliminationTest" />
-        <item itemvalue="JUnit.All in testing" />
-        <item itemvalue="JUnit.VectorTest.testConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +185,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597014372520" />
+    <state x="1987" y="167" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598140722803">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="1987" y="167" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140722803" />
     <state x="2558" y="195" key="#com.intellij.ide.util.MemberChooser" timestamp="1597017993580">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -209,38 +214,38 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598049268367">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598140744603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598049268367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598049268367">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598140744603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598049268367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598049268367">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598140744603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598049268367" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598049268367">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598140744603">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598049268367" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1597030332420">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1598140322530">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332420" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1597030332419">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1598140322530">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332419" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1597030332419">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1598140322530">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332419" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1597030332420">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1598140322530">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597030332420" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1598042445282">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -253,10 +258,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597008368144" />
-    <state x="121" y="0" width="1256" height="847" key="dock-window-1" timestamp="1597208165382">
+    <state x="124" y="121" width="1273" height="597" maximized="true" key="dock-window-1" timestamp="1598140722803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="121" y="0" width="1256" height="847" key="dock-window-1/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597208165382" />
+    <state x="124" y="121" width="1273" height="597" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140722803" />
     <state x="2102" y="50" key="new project wizard" timestamp="1597209983740">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -270,11 +275,28 @@
     </state>
     <state x="2383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597441515050" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MatrixTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MatrixTest.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_testing.ic" NAME="All in testing Coverage Results" MODIFIED="1597009801873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$TestVector.ic" NAME="TestVector Coverage Results" MODIFIED="1597039524064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_Linear_Algebra_Calculator.ic" NAME="All in Linear-Algebra-Calculator Coverage Results" MODIFIED="1598022641415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$MatrixTest.ic" NAME="MatrixTest Coverage Results" MODIFIED="1598140726110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_Linear_Algebra_Calculator.ic" NAME="All in Linear-Algebra-Calculator Coverage Results" MODIFIED="1598140744580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

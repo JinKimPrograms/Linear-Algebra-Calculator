@@ -58,7 +58,7 @@ public class Matrix {
     // Matrix elementary row operation - swap the specified rows in the matrix
     // Row number is assumed to not use 0-based indexing
     public void interChange(int row1, int row2) throws MatrixOperationException {
-        if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 > numRows - 1) {
+        if (row1 <= 0 || row2 <= 0 || row1 > numRows|| row2 > numRows) {
             throw new MatrixOperationException();
         }
 
@@ -70,20 +70,24 @@ public class Matrix {
     }
 
     // Matrix elementary row operation - add a multiple of one row to another
-    // In this case, value in column, row1 = value in column, row2 * scale
-    public void replacement(int row1, int row2, double scale) throws MatrixOperationException {
-        if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 > numRows - 1) {
+    // In this case row1 += row2 * scale
+    public void replacement(int row1, int row2, double multiplier, boolean scale) throws MatrixOperationException {
+        if (row1 <= 0 || row2 <= 0 || row1 > numRows || row2 > numRows) {
             throw new MatrixOperationException();
         }
 
         for (Vector vect : columns) {
-            vect.elements[row1 - 1] = vect.elements[row2 - 1] * scale;
+            if (!scale) {
+                vect.elements[row1 - 1] += vect.elements[row2 - 1] * multiplier;
+            } else {
+                vect.elements[row1 - 1] = vect.elements[row1 - 1] * multiplier;
+            }
         }
     }
 
     // Matrix elementary row operation - scale all values in row by a constant
     public void scale(int row, double scale) throws MatrixOperationException {
-        this.replacement(row, row, scale);
+        this.replacement(row, row, scale, true);
     }
 
 
