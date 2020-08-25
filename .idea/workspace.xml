@@ -35,8 +35,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c07510e0-7a92-4000-b18f-d751abf05f19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +82,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.All in Linear-Algebra-Calculator">
-    <configuration name="All in Linear-Algebra-Calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GaussianEliminationTest">
+    <configuration name="GaussTempTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GaussTempTest" />
       <module name="Linear-Algebra-Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GaussianEliminationTest.TestSolve2x2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GaussianEliminationTest" />
+      <option name="METHOD_NAME" value="TestSolve2x2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,48 +118,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.testAddMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest.testInterChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="METHOD_NAME" value="testAddMatrix" />
+      <option name="METHOD_NAME" value="testInterChange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Linear-Algebra-Calculator" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VectorTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
-      <item itemvalue="JUnit.GaussianEliminationTest" />
-      <item itemvalue="JUnit.VectorTest" />
+      <item itemvalue="Application.GaussTempTest" />
       <item itemvalue="JUnit.MatrixTest" />
-      <item itemvalue="JUnit.MatrixTest.testAddMatrix" />
+      <item itemvalue="JUnit.MatrixTest.testInterChange" />
+      <item itemvalue="JUnit.GaussianEliminationTest" />
+      <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
-        <item itemvalue="JUnit.MatrixTest" />
-        <item itemvalue="JUnit.MatrixTest.testAddMatrix" />
-        <item itemvalue="JUnit.VectorTest" />
         <item itemvalue="JUnit.GaussianEliminationTest" />
+        <item itemvalue="JUnit.MatrixTest" />
+        <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x2" />
+        <item itemvalue="JUnit.MatrixTest.testInterChange" />
+        <item itemvalue="Application.GaussTempTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,42 +202,46 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2424" y="207" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597008650052" />
+    <state x="2503" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598338231795">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2503" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598338231795" />
     <state x="2619" y="160" key="FileChooserDialogImpl" timestamp="1597209962121">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598140744603">
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1598339066566">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598140744603">
+    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066566" />
+    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1598339066566">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598140744603">
+    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066566" />
+    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1598339066566">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598140744603">
+    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066566" />
+    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1598339066566">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140744603" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1598140322530">
+    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066566" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1598339066567">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1598140322530">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066567" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1598339066567">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1598140322530">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066567" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1598339066566">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1598140322530">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066566" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1598339066567">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140322530" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598339066567" />
     <state x="2250" y="85" key="Maven.ArtifactSearchDialog" timestamp="1598042445282">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -258,10 +254,10 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2424" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597008368144" />
-    <state x="124" y="121" width="1273" height="597" maximized="true" key="dock-window-1" timestamp="1598140722803">
+    <state x="124" y="121" width="1273" height="597" key="dock-window-1" timestamp="1598217535804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="124" y="121" width="1273" height="597" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598140722803" />
+    <state x="124" y="121" width="1273" height="597" key="dock-window-1/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598217535804" />
     <state x="2102" y="50" key="new project wizard" timestamp="1597209983740">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -280,13 +276,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/MatrixTest.java</url>
-          <line>76</line>
+          <line>75</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/MatrixTest.java</url>
-          <line>197</line>
+          <line>196</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MatrixTest.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

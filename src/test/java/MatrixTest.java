@@ -1,5 +1,4 @@
 
-import exceptions.MatrixOperationException;
 import fundamentals.Matrix;
 import fundamentals.Vector;
 import org.junit.jupiter.api.BeforeEach;
@@ -122,7 +121,7 @@ public class MatrixTest {
     @Test
     public void testInterChange() {
         try {
-            matrix1.interChange(1, 2);
+            matrix1.interChange(0, 1);
         } catch (Exception e) {
             fail();
         }
@@ -136,22 +135,22 @@ public class MatrixTest {
         assertEquals(vector2Contents[1], 6);
 
         try {
-            matrix1.interChange(0, 2);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
-            matrix1.interChange(1, 0);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
-            matrix1.interChange(3, 2);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
             matrix1.interChange(1, 3);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.interChange(2, 1);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.interChange(4, 3);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.interChange(2, 4);
             fail();
         } catch (Exception e) {
         }
@@ -160,7 +159,7 @@ public class MatrixTest {
     @Test
     public void testReplacement() {
         try {
-            matrix1.replacement(1, 2, 3, false);
+            matrix1.replacement(0, 1, 3, false);
         } catch (Exception e) {
             fail();
         }
@@ -174,28 +173,28 @@ public class MatrixTest {
         assertEquals(vector2Contents[1], 9);
 
         try {
-            matrix1.replacement(0, 2, 1, false);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
-            matrix1.replacement(1, 0,1, false);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
-            matrix1.replacement(3, 2, 1, false);
-            fail();
-        } catch (Exception e) {
-        }
-        try {
             matrix1.replacement(1, 3, 1, false);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.replacement(2, 1,1, false);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.replacement(4, 3, 1, false);
+            fail();
+        } catch (Exception e) {
+        }
+        try {
+            matrix1.replacement(2, 4, 1, false);
             fail();
         } catch (Exception e) {
         }
 
         try {
-            matrix2.scale(1, 2);
+            matrix2.scale(0, 2);
         } catch (Exception e) {
             fail();
         }

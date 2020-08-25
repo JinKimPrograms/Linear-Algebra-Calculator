@@ -4,6 +4,7 @@ import exceptions.VectorOperationException;
 
 
 // A class representation of a matrix, with built-in addition, subtraction & elementary row operations
+// This implementation does not support an empty matrix (would be useless anyway)
 public class Matrix {
 
     protected int numRows;
@@ -58,29 +59,29 @@ public class Matrix {
     // Matrix elementary row operation - swap the specified rows in the matrix
     // Row number is assumed to not use 0-based indexing
     public void interChange(int row1, int row2) throws MatrixOperationException {
-        if (row1 <= 0 || row2 <= 0 || row1 > numRows|| row2 > numRows) {
+        if (row1 < 0 || row2 < 0 || row1 > numRows - 1|| row2 > numRows - 1) {
             throw new MatrixOperationException();
         }
 
         for (Vector vect : columns) {
-            double temp = vect.elements[row1 - 1];
-            vect.elements[row1 - 1] = vect.elements[row2 - 1];
-            vect.elements[row2 - 1] = temp;
+            double temp = vect.elements[row1];
+            vect.elements[row1] = vect.elements[row2];
+            vect.elements[row2] = temp;
        }
     }
 
     // Matrix elementary row operation - add a multiple of one row to another
     // In this case row1 += row2 * scale
     public void replacement(int row1, int row2, double multiplier, boolean scale) throws MatrixOperationException {
-        if (row1 <= 0 || row2 <= 0 || row1 > numRows || row2 > numRows) {
+        if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 >  numRows - 1) {
             throw new MatrixOperationException();
         }
 
         for (Vector vect : columns) {
             if (!scale) {
-                vect.elements[row1 - 1] += vect.elements[row2 - 1] * multiplier;
+                vect.elements[row1] += vect.elements[row2] * multiplier;
             } else {
-                vect.elements[row1 - 1] = vect.elements[row1 - 1] * multiplier;
+                vect.elements[row1] = vect.elements[row1] * multiplier;
             }
         }
     }
