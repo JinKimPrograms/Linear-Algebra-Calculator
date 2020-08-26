@@ -29,7 +29,7 @@ public class GaussianEliminationTest {
         vector2 = new Vector(test2);
         Vector[] vectors1 = new Vector[]{vector1, vector2};
 
-        double[] test3 = new double[]{-2, -1};
+        double[] test3 = new double[]{0, -1};
         vector3 = new Vector(test3);
         double[] test4 = new double[]{-3, 4};
         vector4 = new Vector(test4);
@@ -70,6 +70,8 @@ public class GaussianEliminationTest {
 
         System.out.print(matrix2.generateMessage());
     }
+
+
 
 
 

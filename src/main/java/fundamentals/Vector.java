@@ -2,6 +2,7 @@ package fundamentals;
 
 import exceptions.VectorOperationException;
 import java.util.Arrays;
+import java.text.DecimalFormat;
 
 // A class representation of a Vector with built-in operations
 public class Vector {
@@ -11,7 +12,6 @@ public class Vector {
 
     // Has numRows values; vector[0] is the value in the first row
     protected double[] elements;
-
 
     public int getNumRows() {
         return numRows;
@@ -60,9 +60,13 @@ public class Vector {
 
     // For error message purposes - transcribes the vector into a readable string
     public String generateMessage() {
+
+        DecimalFormat df2 = new DecimalFormat("#.##");
+
         String retval = "{";
         for (int i = 0; i < numRows; i++) {
-            retval = retval + Integer.toString((int) elements[i]) + ", ";
+        //    retval = retval + Integer.toString((int) elements[i]) + ", ";
+            retval = retval + df2.format(elements[i]) + ", ";
         }
         retval = retval + "}";
         return retval;

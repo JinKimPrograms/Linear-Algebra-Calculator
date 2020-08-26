@@ -21,10 +21,10 @@ public class GaussianElimination {
                     continue;
                 }
                 matrix.interChange(p, i);
-                // At this point, it is guaranteed that that the i'th row of the p'th vector is a pivot
-                Double pivot = currVector[i];
+                // At this point, it is guaranteed that that the p'th row of the p'th vector is a pivot
+                Double pivot = currVector[p];
                 // Turn the pivot into 1
-                matrix.scale(i, 1/pivot);
+                matrix.scale(p, 1/pivot);
                 // Everything below the pivot is reduced to 0
                 for (int n = i + 1; n < numRows; n++) {
                     Double curr = currVector[n];

@@ -1,7 +1,7 @@
 package fundamentals;
 import exceptions.MatrixOperationException;
 import exceptions.VectorOperationException;
-
+import java.text.DecimalFormat;
 
 // A class representation of a matrix, with built-in addition, subtraction & elementary row operations
 // This implementation does not support an empty matrix (would be useless anyway)
@@ -94,10 +94,14 @@ public class Matrix {
 
     // Transcribes the matrix into a readable string
     public String generateMessage() {
+
+        DecimalFormat df2 = new DecimalFormat("#.##");
+
         String retval = "{ \n";
         for (int i = 0; i < numRows; i++) {
             for (Vector vect : columns) {
-                retval = retval + Integer.toString((int) vect.elements[i]) + ", ";
+             //   retval = retval + Integer.toString((int) vect.elements[i]) + ", ";
+                retval = retval + df2.format(vect.elements[i]) + ", ";
             }
             retval = retval + "\n";
         }
