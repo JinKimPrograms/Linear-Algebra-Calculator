@@ -71,7 +71,7 @@ public class Matrix {
     }
 
     // Matrix elementary row operation - add a multiple of one row to another
-    // In this case row1 += row2 * scale
+    // In this case row1 += row2 * multiplier
     public void replacement(int row1, int row2, double multiplier, boolean scale) throws MatrixOperationException {
         if (row1 < 0 || row2 < 0 || row1 > numRows - 1 || row2 >  numRows - 1) {
             throw new MatrixOperationException();

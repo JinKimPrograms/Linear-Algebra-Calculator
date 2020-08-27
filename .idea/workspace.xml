@@ -37,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/GaussianElimination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -100,21 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GaussianEliminationTest.TestSolve2x2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Linear-Algebra-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GaussianEliminationTest" />
+      <option name="METHOD_NAME" value="TestSolve2x2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GaussianEliminationTest.TestSolve2x3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Linear-Algebra-Calculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GaussianEliminationTest" />
       <option name="METHOD_NAME" value="TestSolve2x3" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Linear-Algebra-Calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatrixTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MatrixTest" />
       <item itemvalue="JUnit.GaussianEliminationTest" />
       <item itemvalue="JUnit.VectorTest" />
       <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
       <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x3" />
+      <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GaussianEliminationTest" />
+        <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x2" />
         <item itemvalue="JUnit.GaussianEliminationTest.TestSolve2x3" />
         <item itemvalue="JUnit.All in Linear-Algebra-Calculator" />
         <item itemvalue="JUnit.VectorTest" />
-        <item itemvalue="JUnit.MatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,10 +169,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2200" y="9" key="#Project_Structure" timestamp="1597441866410">
+    <state x="2200" y="9" key="#Project_Structure" timestamp="1598485696170">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state x="2200" y="9" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597441866410" />
+    <state x="2200" y="9" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598485696170" />
     <state x="2174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597014372520">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -210,22 +210,22 @@
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state x="2619" y="160" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1597209962121" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598484378300">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1598560783089">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598484378300" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598484378299">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598560783089" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1598560783089">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598484378299" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598484378299">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598560783089" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1598560783089">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598484378299" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598484378299">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598560783089" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1598560783089">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598484378299" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1598560783089" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1598484313957">
       <screen x="1920" y="0" width="1600" height="860" />
     </state>
@@ -291,14 +291,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java</url>
-          <line>65</line>
+          <line>93</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GaussianEliminationTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$GaussianEliminationTest.ic" NAME="GaussianEliminationTest Coverage Results" MODIFIED="1598484194951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$GaussianEliminationTest.ic" NAME="GaussianEliminationTest Coverage Results" MODIFIED="1598484559001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$All_in_testing.ic" NAME="All in testing Coverage Results" MODIFIED="1597009801873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Linear_Algebra_Calculator$TestVector.ic" NAME="TestVector Coverage Results" MODIFIED="1597039524064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>*</FILTER>

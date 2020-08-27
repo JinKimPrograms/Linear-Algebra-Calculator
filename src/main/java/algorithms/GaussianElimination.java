@@ -6,7 +6,7 @@ import fundamentals.Vector;
 public class GaussianElimination {
 
     // Converts the given matrix into reduced row echelon form
-    public void Solve(Matrix matrix) throws MatrixOperationException {
+    public void RowReduce(Matrix matrix) throws MatrixOperationException {
         // Pointer for which row - start at first row (row 0)
         int p = 0;
 
@@ -35,6 +35,29 @@ public class GaussianElimination {
             // Move to next row
             p++;
         }
+    }
+
+    // Input: A row reduced matrix in echelon form - uses back substitution
+    // to transform the matrix into reduced row echelon form
+    public void BackSubstitute(Matrix matrix) throws MatrixOperationException {
+        Vector[] columns = matrix.getColumns();
+
+        for (int i = matrix.getNumRows() - 1; i > 0; i--) {
+            double[] currVector = columns[i].getElements();
+            Double pivot = currVector[i];
+
+            // There is no pivot in this row
+            if (pivot != 1) {
+                continue;
+            }
+
+            // Else, turn everything above to zero!
+            for (int p = i - 1; p >= 0; p--) {
+                Double curr = currVector[p];
+                matrix.replacement(p, i, -curr, false);
+            }
+        }
+
     }
 
 }

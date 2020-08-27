@@ -14,6 +14,8 @@ public class GaussianEliminationTest {
     Vector vector3;
     Vector vector4;
     Vector vector5;
+    Vector vector6;
+    Vector vector7;
 
     Matrix matrix1;
     Matrix matrix2;
@@ -37,10 +39,20 @@ public class GaussianEliminationTest {
         vector5 = new Vector(test5);
         Vector[] vectors2 = new Vector[]{vector3, vector4, vector5};
 
+        double[] test6 = new double[]{2, 4};
+        vector6 = new Vector(test6);
+        double[] test7 = new double[]{4, 8};
+        vector7 = new Vector(test7);
+        Vector[] vectors3 = new Vector[]{vector6, vector7};
+
 
         try {
+            // 2x2 matrix with 2 pivots
             matrix1 = new Matrix(vectors1);
+            // 2x3 matrix with 2 pivots
             matrix2 = new Matrix(vectors2);
+            // 2x2 matrix with 1 pivot
+            matrix3 = new Matrix(vectors3);
         } catch (Exception e) {
             System.out.println("Hey man, you messed up your setup test. Cmon.");
         }
@@ -49,26 +61,50 @@ public class GaussianEliminationTest {
     @Test
     public void TestSolve2x2() {
         try {
-            gauss.Solve(matrix1);
+            gauss.RowReduce(matrix1);
+            gauss.RowReduce(matrix3);
+            // Correct answer:
+            // 1 6
+            // 0 1
+            System.out.print(matrix1.generateMessage());
+            // Correct answer:
+            // 1 2
+            // 0 0
+            System.out.print(matrix3.generateMessage());
+
+            gauss.BackSubstitute(matrix1);
+            gauss.BackSubstitute(matrix3);
+            // Correct answer:
+            // 1 0
+            // 0 1
+            System.out.print(matrix1.generateMessage());
+            // Correct answer:
+            // 1 2
+            // 0 0
+            System.out.print(matrix3.generateMessage());
         } catch (MatrixOperationException e) {
             fail();
         }
 
-        // Correct answer:
-        // 1 6
-        // 0 1
-        System.out.print(matrix1.generateMessage());
     }
 
     @Test
     public void TestSolve2x3() {
         try {
-            gauss.Solve(matrix2);
+            gauss.RowReduce(matrix2);
+            // Correct answer:
+            // 1 -4 -9
+            // 0 1 -0.33
+            System.out.print(matrix2.generateMessage());
+            gauss.BackSubstitute(matrix2);
+            // Correct answer:
+            // 1 0 -9
+            // 0 1 -0.33
+            System.out.print(matrix2.generateMessage());
         } catch (MatrixOperationException e) {
             fail();
         }
 
-        System.out.print(matrix2.generateMessage());
     }
 
 
